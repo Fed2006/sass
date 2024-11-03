@@ -1,0 +1,11 @@
+@import "./alignment.scss";
+$bgcolor:rgb(130, 130, 224);
+body{
+    background-color:$bgcolor;
+}
+button{
+    @include bttn(100px, 50px, green)
+}
+#ok{
+    @include bttn(150px, 30px, purple)
+}
